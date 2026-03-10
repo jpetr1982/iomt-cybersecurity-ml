@@ -1,0 +1,5 @@
+cd "C:\Users\jpetr\Desktop\DAMA\extra_projects\iomt-cybersecurity-ml"
+cmd /k cybersecurity\Scripts\activate.bat
+streamlit run app/streamlit_app.py
+
+select app/grouped_input_example.csv

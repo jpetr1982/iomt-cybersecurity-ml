@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+cybersecurity/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editors
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+
+# Raw and intermediate data
+data/raw/
+data/interim/
+
+# Optional: ignore processed data if you do not want to upload it
+# data/processed/
+
+# Logs
+*.log
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Large generated artifacts
+models/*.joblib
+data/processed/
+reports/results/*.csv
+
+# Keep app sample CSVs, reports, and model artifacts unless too large
+# If model files are too large for GitHub, uncomment the next line:
+# models/*.joblib
